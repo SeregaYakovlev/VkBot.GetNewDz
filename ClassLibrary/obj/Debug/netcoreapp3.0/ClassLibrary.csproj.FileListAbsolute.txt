@@ -1,0 +1,8 @@
+C:\Users\Serega\Desktop\VkBot.GetNewDz\ClassLibrary\bin\Debug\netcoreapp3.0\ClassLibrary.deps.json
+C:\Users\Serega\Desktop\VkBot.GetNewDz\ClassLibrary\bin\Debug\netcoreapp3.0\ClassLibrary.dll
+C:\Users\Serega\Desktop\VkBot.GetNewDz\ClassLibrary\bin\Debug\netcoreapp3.0\ClassLibrary.pdb
+C:\Users\Serega\Desktop\VkBot.GetNewDz\ClassLibrary\obj\Debug\netcoreapp3.0\ClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Serega\Desktop\VkBot.GetNewDz\ClassLibrary\obj\Debug\netcoreapp3.0\ClassLibrary.AssemblyInfo.cs
+C:\Users\Serega\Desktop\VkBot.GetNewDz\ClassLibrary\obj\Debug\netcoreapp3.0\ClassLibrary.dll
+C:\Users\Serega\Desktop\VkBot.GetNewDz\ClassLibrary\obj\Debug\netcoreapp3.0\ClassLibrary.pdb
+C:\Users\Serega\Desktop\VkBot.GetNewDz\ClassLibrary\obj\Debug\netcoreapp3.0\ClassLibrary.csprojAssemblyReference.cache

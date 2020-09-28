@@ -1,0 +1,37 @@
+﻿{
+  "ConfigJson": {
+    "Author": "Сергей Яковлев, 2019",
+    "SiteInfo": "Домашние задания 9Б класса",
+    "HowOftenDataUpdates": "Данные обновляются ежедневно с 8:00 до 23:00 каждые 15 минут.",
+    "Login": "+79219305001",
+    "Password": "hereHERE1978!(&",
+    "HowManyWeeksToDownload": 2,
+    "HowManyWeeksToSave": 2,
+    "DefaultTimeout": 300000,
+    "Seq": "http://94.188.19.60:5341",
+    "serverFileName": "serverData.json",
+    "diffsFileName": "diffs.json",
+    "UsersCounterFileName": "UsersCounter.json",
+    "AuthorizationCookieFileName": "AuthorizationCookie.json",
+    "JavaScriptErrorsFileName": "Errors.txt",
+    "DateTimesFormats": {
+      "FullDateTime": "dd.MM.yyyy H:mm:ss",
+      "No_seconds": "d.MM H:mm",
+      "No_year": "dd.MM"
+    },
+    "Pathes": {
+      "pathToWorkDirectory": "C://Users//Serega//Desktop//WorkDirectory",
+      "pathToDataDirectory": "C://Users//Serega//Desktop//WorkDirectory//Content",
+      "pathToAuthorizationDataDirectory": "C://Users//Serega//Desktop//WorkDirectory//AuthorizationData",
+      "pathToReports": "C://Users//Serega//Desktop//WorkDirectory//Reports"
+    },
+    "WebServer": {
+      "HTTP_Port": 80,
+      "HTTPS_Port": 443,
+      "WebRoot": "C://Users//Serega//Desktop//WorkDirectory//WebSite//wwwroot",
+      "HTTPS": {
+        "PathForPfxFile": "//etc//letsencrypt//live//dz4all.ru-0001//certificate.pfx"
+      }
+    }
+  }
+}

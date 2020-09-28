@@ -1,0 +1,27 @@
+﻿{
+  "ConfigJson": {
+    "Seq": "http://localhost:port",
+    "serverFileName": "serverFileName.json",
+    "diffsFileName": "diffsFileName.json",
+    "DateTimesFormats": {
+      "FullDateTime": "dd.MM.yyyy H:mm:ss",
+      "No_seconds": "d.MM H:mm",
+      "No_year": "dd.MM"
+    },
+    "Pathes": {
+      "pathToDataDirectory": "path.\\Content",
+      "pathToAuthorizationDataDirectory": "path.\\AuthorizationData",
+      "pathToReports": "path.\\Reports"
+    },
+    "WebServer": {
+      "HTTP_Port": 80,
+      "HTTPS_Port": 443,
+      "WebRoot": "wwwroot",
+      "HTTPS": {
+        "Certificate": "path.\\fullchain.pem",
+        "PrivateKey": "path.\\privkey.pem",
+        "PathForPfxFile": "path.\\certificate.pfx"
+      }
+    }
+  }
+}
