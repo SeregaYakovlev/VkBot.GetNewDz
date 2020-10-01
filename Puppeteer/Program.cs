@@ -109,7 +109,13 @@ namespace Puppeteer
                     {
                         string dzMessage = "";
                         var json = JArray.Parse(newDz);
-                        IEnumerable<JToken> items = json.AsEnumerable().OrderBy(it => DateTime.ParseExact(it["Item1" ?? "Item2"]["datetime_from"].ToString(), DateTimesFormats.FullDateTime, null));
+                        IEnumerable<JToken> items = json.AsEnumerable();
+                        items = items.OrderBy(item => DateTime.ParseExact(
+                            (item["Item1"].HasValues ? 
+                                item["Item1"] : 
+                                item["Item2"])["datetime_from"].ToString(),
+                            DateTimesFormats.FullDateTime, null));
+
                         foreach (var item in items)
                         {
                             var item1 = item["Item1"];

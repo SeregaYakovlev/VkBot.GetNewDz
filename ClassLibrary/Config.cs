@@ -9,6 +9,7 @@ namespace ClassLibrary
     public class Config
     {
         public readonly static string SETTINGS_FILE =
+            //Path.Combine(@"C:\Users\Serega\Desktop\VkBotDzRelease", "config.json");
             Path.Combine(Directory.GetCurrentDirectory(), "config.json");
 
         private static Config instance;
